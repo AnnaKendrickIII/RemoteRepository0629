@@ -8,7 +8,7 @@
 <title>Success</title>
 </head>
 <body>
-
+<h3>時間為</h3>
 <h3>Success ${time}</h3>
 <h3><a href="<c:url value="/index.jsp" />">Home</a></h3>
 
