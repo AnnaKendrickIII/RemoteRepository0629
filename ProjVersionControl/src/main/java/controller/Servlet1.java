@@ -17,6 +17,7 @@ public class Servlet1 extends HttpServlet {
 		
 		//1
 		//2
+		//3
 		System.out.println("Servlet1");
 		
 		HttpSession session = request.getSession();
