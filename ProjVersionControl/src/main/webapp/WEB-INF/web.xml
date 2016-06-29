@@ -6,11 +6,11 @@
 	<display-name>ProjVersionControl</display-name>
 	
 	<servlet>
-		<servlet-name>Servlet1</servlet-name>
+		<servlet-name>Servlet3</servlet-name>
 		<servlet-class>controller.Servlet1</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Servlet1</servlet-name>
+		<servlet-name>Servlet3</servlet-name>
 		<url-pattern>/servlet1</url-pattern>
 	</servlet-mapping>
 	
