@@ -20,8 +20,8 @@ public class Servlet1 extends HttpServlet {
 		//再一次commit
 		//第三次commit
 		System.out.println("Servlet33");
-		
-		
+		System.out.println("Servlet22");
+		System.out.println("Servlet11");
 	
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
