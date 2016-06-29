@@ -15,9 +15,18 @@ public class Servlet1 extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		System.out.println("呵呵");
+		//1
+		//2
+		//3
 
-		//這是註解1
+
 		System.out.println("Servlet1");
+
+		System.out.println("Servlet2");
+
+
+
 		System.out.println("Servlet2");
 		//再一次commit
 		//第三次commit
