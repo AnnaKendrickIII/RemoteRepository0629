@@ -18,6 +18,7 @@ public class Servlet1 extends HttpServlet {
 
 		//這是註解1
 		System.out.println("Servlet1");
+		System.out.println("Servlet2");
 		//再一次commit
 		//第三次commit
 		System.out.println("Servlet33");
