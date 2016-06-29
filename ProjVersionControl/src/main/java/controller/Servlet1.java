@@ -25,6 +25,13 @@ public class Servlet1 extends HttpServlet {
 		System.out.println("Servlet33");
 
 
+		System.out.println("呵呵");
+		//1
+		//2
+		//3
+
+
+		System.out.println("Servlet33");
 
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
