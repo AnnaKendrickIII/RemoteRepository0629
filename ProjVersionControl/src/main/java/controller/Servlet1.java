@@ -14,14 +14,23 @@ public class Servlet1 extends HttpServlet {
 	private SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+
 		System.out.println("呵呵");
 		//1
 		//2
 		//3
+
+
 		System.out.println("Servlet1");
 
+
 		System.out.println("Servlet2");
+
+		//再一次commit
+		//第三次commit
+		System.out.println("Servlet33");
+>>>>>>> branch 'master' of https://github.com/AnnaKendrickIII/RemoteRepository0629.git
+		
 		
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
