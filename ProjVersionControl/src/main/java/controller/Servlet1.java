@@ -16,6 +16,16 @@ public class Servlet1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
+
+
+		System.out.println("Servlet33");
+
+		HttpSession session = request.getSession();
+		session.setAttribute("time", ""+sDateFormat.format(new Date()));
+		
+		String path = request.getContextPath();
+		response.sendRedirect(path+"/success.jsp");
+	}
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		this.doGet(req, resp);
