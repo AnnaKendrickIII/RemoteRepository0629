@@ -9,6 +9,8 @@
 </head>
 <body>
 <h3>new page</h3>
+<h3>new page</h3>
+<h3>new page</h3>
 <h3><a href='<c:url value="/index.jsp" />'>Home</a></h3>
 </body>
 </html>
