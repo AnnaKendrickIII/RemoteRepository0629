@@ -15,13 +15,14 @@ public class Servlet1 extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		//這是註解1
-		System.out.println("Servlet1");
+		System.out.println("呵呵");
 		//1
 		//2
 		//3
-		System.out.println("Servlet1");
-	
+
+
+		System.out.println("Servlet33");
+
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
 		
