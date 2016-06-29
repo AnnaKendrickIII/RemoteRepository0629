@@ -29,7 +29,6 @@ public class Servlet1 extends HttpServlet {
 		//再一次commit
 		//第三次commit
 		System.out.println("Servlet33");
->>>>>>> branch 'master' of https://github.com/AnnaKendrickIII/RemoteRepository0629.git
 		
 		
 		HttpSession session = request.getSession();
